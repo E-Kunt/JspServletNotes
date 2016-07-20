@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>用JavaMail通过Sina邮箱发邮件</title>
+</head>
+<body>
+
+<form action="MailServlet" method="post">
+	发信人：<input type="text" name="from" value="wyk731497361@sina.com" readonly="readonly"/><br/>
+	收信人：<input type="text" name="to"/><br/>
+	主   题 ：<input type="text" name="subject"><br/>
+	详细内容:<br/>
+	<textarea rows="10" cols="50" name="text" ></textarea><br/>
+	<input type="submit" name="send" value="发送"/>
+</form>
+
+</body>
+</html>
